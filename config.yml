@@ -1,0 +1,17 @@
+app:
+    name: My App
+    description: Welcome to ${app.name}
+
+my:
+    greeting: Hello
+    list: 1,2,3
+
+db:
+    connection: "{connectionString: 'http://example.com', userName: 'foo', password: 'foo'}"
+    host: 127.0.0.1
+    port: 1200
+
+# to expose endpoints. * means expose everything
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test
