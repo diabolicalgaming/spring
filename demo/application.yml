@@ -1,0 +1,19 @@
+database:
+  bsca:
+     driverName: jdbc-bsca
+     url: jdbc:oracle:bsca
+     username: bscaUser
+     password: 123bsca
+  hphc:
+     driverName: jdbc-hphc
+     url: jdbc:oracle:hphc
+     username: hphcUser
+     password: 123hphc
+     
+konga:
+   url: https://example.com
+   port: 8080
+   bsca:
+       consumerName: com.bsca
+   hphc:
+       consumerName: com.hphc
